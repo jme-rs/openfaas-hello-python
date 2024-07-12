@@ -1,0 +1,3 @@
+[submodule "worker/pymec-client"]
+	path = worker/pymec-client
+	url = https://git.dolylab.cc/mec/pymec-client.git

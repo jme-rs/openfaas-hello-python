@@ -1,0 +1,10 @@
+services:
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    network_mode: host
+    tty: true
+    volumes:
+      - .:/app
+    command: /bin/bash
